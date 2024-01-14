@@ -1,0 +1,1878 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: black;
+    height: 75px;
+}
+
+.first_part {
+    display: flex;
+    flex: 3;
+}
+
+.reel_ {
+    margin: auto;
+}
+
+.reel_rover {
+    color: #F10E0E;
+    text-shadow: -5px 0px 1px rgba(44, 44, 44, 0.50);
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.reel_rover:hover {
+    text-shadow: -2px 0px 5px rgba(13, 34, 227, 0.50), -5px 0px 1px rgba(44, 44, 44, 0.50);
+    transition: 0.5s;
+}
+
+.center_lr:hover {
+    text-shadow: -2px 0px 5px rgba(13, 34, 227, 0.50), -5px 0px 1px rgba(44, 44, 44, 0.50), 0px 0px 50px white;
+    transition: 0.5s;
+}
+
+header .line_1 {
+    margin: auto;
+    opacity: 0.35;
+}
+
+nav {
+    flex: 7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+    color: #FFF;
+}
+
+nav a {
+    color: whitesmoke;
+    color: #FFF;
+    font-family: 'Alatsi-Regular';
+    text-shadow: 0px 4px 5px rgba(210, 210, 210, 0.50);
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+nav a:hover {
+    text-decoration-line: underline;
+    text-shadow: 0px 0px 15px rgb(255, 247, 0);
+    transition: 0.5s;
+}
+
+nav .log_in:hover {
+    text-decoration-line: underline;
+    text-shadow: 0px 0px 10px rgb(0, 199, 253);
+    transition: 0.5s;
+}
+
+.div_1 {
+    height: 8px;
+    flex-shrink: 0;
+    fill: #282828;
+    box-shadow: 0px 2px 1px 0px rgba(199, 199, 199, 0.5) inset, 0px 5px 8px 0px rgba(122, 122, 122, 0.5) inset;
+    background-color: black;
+}
+
+.section_1 {
+    background-image: url("image20.png");
+    background-size: cover;
+    height: 800px;
+}
+
+.main_section_1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.desc_1 {
+    width: 35%;
+}
+
+.img_rr {
+    width: 22%;
+    height: 10%;
+    padding: 1px;
+    border: black 1px solid;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #684F4F;
+    box-shadow: -40px -60px 50px 5px rgba(246, 20, 20, 0.75) inset;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.digital_1 {
+    display: flex;
+    text-align: left;
+}
+
+.digital_1 h1 {
+    width: 60%;
+    color: #FFB800;
+    font-kerning: none;
+    font-family: 'Andada Pro SemiBold';
+    font-size: 35px;
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+}
+
+.digital_1 .digital_dest {
+    color: #0038FF;
+    font-kerning: none;
+    font-family: 'Andada Pro SemiBold';
+    font-size: 35px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.desc_1 .span_reel {
+    color: #F00;
+    font-family: 'Alumni Sans Regular';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc_1 p {
+    width: 90%;
+    margin-top: 6px;
+    text-align: left;
+    margin-left: 3px;
+}
+
+.desc_1 p {
+    color: #DFDFDF;
+    font-family: 'Alumni Sans Regular';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc_1 .span_roam {
+    color: #1DC9FF;
+    font-family: 'Alumni Sans Regular';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desc_1 .but_12 {
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.desc_1 .but_1 {
+    color: #FFF;
+    height: 45px;
+    width: 25%;
+    border-radius: 5px;
+    background: #1D93FF;
+    text-align: center;
+    font-family: 'Alumni Sans Regular';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.but_1 .but_try {
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+.but_1:hover {
+    background-color: #FFB800;
+    transition: 0.7s;
+}
+
+.but_try:hover {
+    color: #F00;
+    transition: 0.7s;
+}
+
+.spider {
+    width: 38%;
+}
+
+.desc_1 .but_2 {
+    color: #FFF;
+    height: 45px;
+    width: 25%;
+    border-radius: 5px;
+    background: #1DC9FF;
+    text-align: center;
+    font-family: 'Alumni Sans Regular';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.but_2 .but_try_2 {
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    color: #FFF;
+}
+
+.but_2:hover {
+    background-color: #FFB800;
+    transition: 0.7s;
+}
+
+.but_try_2:hover {
+    color: #F00;
+    transition: 0.7s;
+}
+
+.div_2 {
+    height: 8px;
+    flex-shrink: 0;
+    fill: #282828;
+    box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 0.5) inset, 0px 5px 10px 0px rgba(122, 122, 122, 0.5) inset;
+    background-color: black;
+}
+
+.section_2 {
+    background-color: black;
+    position: relative;
+    height: 850px;
+}
+
+.section_2 .main_in2 {
+    margin: 20px auto;
+    padding-top: 80px;
+}
+
+.section_2 .main_sermov {
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.section_2 h1 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Akshar', sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section_2 hr {
+    position: relative;
+    bottom: 5px;
+}
+
+.name_watch {
+    width: 15%;
+    padding-left: 40px;
+}
+
+.name_watch h1:hover {
+    color: #FFB800;
+    transition: 0.5s;
+}
+
+.section_2 .name_mov {
+    width: 15%;
+    padding-left: 40px;
+}
+
+.name_mov h1:hover {
+    color: #1D93FF;
+    transition: 0.5s;
+}
+
+.section_2 .under_watch {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.section_2 .under_movie {
+    width: 77%;
+    margin: 0 auto;
+}
+
+.serials {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.serials img {
+    border-radius: 10px;
+    width: 72%;
+    opacity: 0.7;
+}
+
+.ser_1img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.ser_2img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.ser_3img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.ser_4img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.main_mov {
+    margin: 80px auto;
+    padding-left: 20px;
+}
+
+.movies {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-left: 26px;
+}
+
+
+.movies img {
+    border-radius: 10px;
+    width: 72%;
+    opacity: 0.7;
+}
+
+.mov_1img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.mov_2img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.mov_3img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+.mov_4img:hover {
+    opacity: 1;
+    width: 95%;
+    box-shadow: 0px 0px 20px 1px lavenderblush;
+    transition: 0.4s;
+}
+
+
+.section_3 {
+    background-color: #000;
+    height: 1900px;
+}
+
+.div_3 {
+    height: 8px;
+    flex-shrink: 0;
+    fill: #282828;
+    box-shadow: 0px 3px 5px 0px rgba(199, 199, 199, 0.5) inset, 0px 5px 10px 0px rgba(122, 122, 122, 0.5) inset;
+    background-color: black;
+}
+
+.dune_newmovie_block {
+    margin-top: 140px;
+}
+
+.new_movie_outblock {
+    text-align: left;
+    width: 38%;
+}
+
+.new_movie {
+    height: 50px;
+    width: 55%;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #000 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: -5px 10px 20px 5px rgba(255, 255, 255, 0.25) inset;
+}
+
+.new_movie .name_new_movie {
+    text-align: center;
+}
+
+.name_new_movie {
+    display: flex;
+    margin: auto;
+    gap: 30px;
+}
+
+.space_between_n_m_1 {
+    text-align: center;
+    display: flex;
+}
+
+.space_between_n_m_2 {
+    text-align: center;
+    display: flex;
+}
+
+.new_movie span {
+    float: left;
+    margin-left: 20px;
+    flex-shrink: 0;
+    font-family: 'Alegreya Sans SC Light';
+    color: #FFF;
+    text-shadow: -5px 0px 10px whitesmoke, ;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.n_1 {
+    margin-left: 0 !important;
+}
+
+.m_1 {
+    margin-left: 0 !important;
+}
+
+.dune_img_outblock {
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.dune_img {
+    background-image: url(https://images-s.kinorium.com/movie/poster/2808886/w1500_51723931.jpg);
+    background-size: 100% 100%;
+    border-radius: 5px;
+    width: 100%;
+    height: 450px;
+}
+
+.buttons_dune {
+    display: flex;
+    margin: 330px auto;
+    text-align: left;
+    align-items: center;
+    gap: 50px;
+    padding-left: 50px;
+}
+
+
+.dune_img .buy_w {
+    width: 20%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF7A00;
+    box-shadow: 0px 5px 40px rgba(255, 32, 32, 0.75), 0 0px 20px rgb(144, 98, 13);
+    text-decoration: none;
+    text-align: center;
+}
+
+.dune_img a {
+    text-decoration: none;
+}
+
+.dune_img h3 {
+    font-family: 'Alfa Slab One', serif;
+    padding-left: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.buy_w h1 {
+    font-family: 'Akshar', sans-serif;
+    position: relative;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #FFF;
+    top: 10px;
+}
+
+.buy_w:hover {
+    box-shadow: 0 5px 50px rgb(250, 172, 26);
+    transition: 0.5s;
+}
+
+.about_f {
+    width: 15%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    fill: #000;
+    box-shadow: -5px 5px 30px rgb(183, 183, 183) inset, 0 0px 20px rgb(144, 98, 13);
+    text-decoration: none;
+    text-align: center;
+}
+
+.about_f:hover {
+    box-shadow: -5px 5px 30px rgb(183, 183, 183) inset, 0 5px 50px rgb(250, 172, 26);
+    transition: 0.5s;
+}
+
+.about_f h1 {
+    font-family: 'Akshar', sans-serif;
+    color: #FFF;
+    font-size: 21px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+}
+
+.lines {
+    width: 100%;
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.imgspider {
+    background-image: url("image 15spider_img.png");
+    background-size: 100% 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 82%;
+    height: 26%;
+    margin-top: 50px;
+}
+
+.main_spider {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.main_spider .spider_1 {
+    display: flex;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    width: 30%;
+    padding-left: 20px;
+}
+
+.main_spider h1 {
+    color: #FFF;
+    font-family: 'Alumni Sans Regular';
+    text-shadow: -5px 0px 10px whitesmoke, ;
+    font-size: 45px;
+    font-weight: 400;
+    position: relative;
+    top: 5px;
+    letter-spacing: 15px;
+}
+
+.under_spider {
+    width: 25%;
+    position: relative;
+    bottom: 5px;
+    left: 15px;
+
+}
+
+.imgspider h2 {
+    color: #FFF;
+    font-family: 'Alumni Sans Regular';
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.story {
+    position: relative;
+    top: 25px;
+}
+
+.story img {
+    background: #FFF;
+    width: 1px;
+    height: 60px;
+    position: relative;
+    bottom: 11px;
+    left: 17px;
+}
+
+.story h3 {
+    width: 30%;
+    font-family: 'Allerta', sans-serif;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    left: 20px;
+    bottom: 75px;
+}
+
+.description_spiderman {
+    float: none !important;
+    margin: 0 auto;
+    padding-left: 40px;
+    position: relative;
+    bottom: 15px;
+}
+
+.main_role {
+    margin-bottom: 10px;
+    width: 30%;
+}
+
+.main_role h1 {
+    color: #FFF;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.here_1 {
+    color: #FFF;
+    font-family: 'Alice', serif;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400;
+    float: none !important;
+    top: 0 !important;
+    margin-left: 10px !important;
+}
+
+.director {
+    width: 20%;
+}
+
+.director h1 {
+    color: #FFF;
+    font-family: 'Alfa Slab One', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.director span {
+    color: #FFF;
+    font-family: 'Alice', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    float: none !important;
+    top: 0 !important;
+    margin-left: 5px !important;
+}
+
+.buttons_bysub {
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.bysub {
+    width: 23%;
+    height: 45px;
+    text-align: center;
+    border-radius: 10px;
+    background: #FF7A00;
+    box-shadow: -10px 5px 40px 0px rgba(236, 39, 39, 0.50) inset;
+}
+
+.bysub a {
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    color: #FFF;
+    font-family: Akshar;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.bysub:hover {
+    box-shadow: -10px 5px 40px 5px rgba(236, 39, 39, 0.50) inset;
+    box-shadow: 0 5px 20px rgb(167, 116, 58);
+    transition: 0.5s;
+}
+
+.bysub a:hover {
+    color: rgba(236, 39, 39, 0.50);
+    transition: 0.5s;
+}
+
+footer {
+    background-image: url("here.png");
+    height: 420px;
+}
+
+.under_apps {
+    width: 80%;
+    position: relative;
+    top: 110px;
+    margin: 0 auto;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 35px;
+    position: relative;
+    top: 125px;
+}
+
+.apps .youtube {
+    width: 2.9%;
+    height: 2.9%;
+}
+
+.apps .line_11 {
+    background: #FFF;
+    height: 35px;
+    width: 1px;
+}
+
+.apps .line_22 {
+    background: #FFF;
+    height: 35px;
+    width: 1px;
+}
+
+.apps .line_33 {
+    background: #FFF;
+    height: 35px;
+    width: 1px;
+}
+
+.apps .telegram {
+    width: 2.9%;
+    height: 2.9%;
+}
+
+.apps .vk {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.apps .tiktok {
+    width: 2.9%;
+    height: 2.9%;
+}
+
+.main_text {
+    width: 80%;
+    position: relative;
+    top: 220px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.text_1 {
+    display: flex;
+    position: relative;
+    bottom: 15px;
+}
+
+.text_1 h3 {
+    color: #000;
+    font-family: 'Alumni Sans Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text_1 img {
+    width: 1px;
+    height: 25px;
+    background: #FFF;
+    margin-right: 5px;
+}
+
+.text_2 {
+    display: flex;
+}
+
+.text_2 h3 {
+    color: #000;
+    font-family: 'Alumni Sans Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.text_2 img {
+    width: 1px;
+    height: 25px;
+    background: #FFF;
+    margin-right: 5px;
+}
+
+.text_3 {
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+
+.text_3 h3 {
+    color: #000;
+    font-family: 'Alumni Sans Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.text_3 img {
+    width: 1px;
+    height: 25px;
+    background: #FFF;
+    margin-right: 5px;
+}
+
+@media(max-width: 1440px) {
+    header {
+        min-width: 1280px;
+    }
+
+    .section_1 {
+        min-width: 1280px;
+    }
+
+    .section_2 {
+        min-width: 1280px;
+    }
+
+    .section_3 {
+        min-width: 1280px;
+    }
+
+    .imgspider {
+        min-width: 80%;
+        height: 25%;
+    }
+
+    .story h3 {
+        font-size: 13px;
+    }
+
+    .story img {
+        height: 58px;
+        bottom: 15px;
+    }
+
+    .main_spider {
+        padding-top: 30px;
+    }
+
+    footer {
+        min-width: 1280px;
+    }
+}
+
+@media(max-width: 1170px) {
+    header {
+        min-width: 960px;
+    }
+
+    .section_1 {
+        min-width: 960px;
+    }
+
+    .img_rr {
+        min-width: 22%;
+        min-height: 9%;
+    }
+
+    .digital_1 h1 {
+        top: 10px !important;
+    }
+
+    .digital_1 h1,
+    .digital_dest {
+        position: relative;
+        font-size: 25px !important;
+    }
+
+    .desc_1 p {
+        font-size: 19px;
+    }
+
+    .desc_1 .span_reel {
+        font-size: 21px;
+    }
+
+    .desc_1 .span_roam {
+        font-size: 19px;
+    }
+
+    .but_1 {
+        height: 38px !important;
+        min-width: 27% !important;
+        font-size: 21px !important;
+    }
+
+    .but_2 {
+        height: 38px !important;
+        min-width: 27% !important;
+        font-size: 21px !important;
+    }
+
+    .section_2 {
+        min-width: 960px;
+    }
+
+    .section_2 h1 {
+        font-size: 20px;
+    }
+
+    .section_2 hr {
+        min-width: 82%;
+    }
+
+    .section_3 {
+        min-width: 960px;
+    }
+
+    .new_movie {
+        height: 50px;
+        min-width: 57% !important;
+
+    }
+
+    .name_new_movie {
+        gap: 25px;
+    }
+
+    .new_movie span {
+        margin-left: 10px;
+    }
+
+    .dune_img {
+        width: 100%;
+        height: 370px;
+    }
+
+    .buttons_dune {
+        margin: 260px auto;
+    }
+
+    .buy_w {
+        height: 45px !important;
+    }
+
+    .buy_w h1 {
+        font-size: 16px;
+        top: 12px;
+    }
+
+    .about_f {
+        height: 45px !important;
+    }
+
+    .about_f h1 {
+        font-size: 16px;
+        top: 12px;
+    }
+
+    .spider_1 {
+        display: flex;
+        flex-direction: column;
+        width: 27% !important;
+    }
+
+    .spider_1 h1 {
+        font-size: 38px;
+        letter-spacing: 10px;
+        text-align: center;
+        align-items: stretch;
+    }
+
+    .under_spider {
+        width: 100%;
+        left: 0 !important;
+    }
+
+    .story img {
+        height: 65px;
+        bottom: 6px;
+    }
+
+    .story h3 {
+        font-size: 11.5px;
+
+        position: relative;
+        bottom: 73px;
+    }
+
+    .main_role h1 {
+        font-size: 14px;
+    }
+
+    .here_1 {
+        font-size: 16px !important;
+    }
+
+    .director h1 {
+        font-size: 14px;
+    }
+
+    .director span {
+        font-size: 16px !important;
+    }
+
+    .bysub {
+        width: 24%;
+        height: 40px;
+    }
+
+    .bysub a {
+
+        font-size: 10px;
+    }
+
+    footer {
+        min-width: 960px;
+    }
+
+    .apps .youtube {
+        width: 4% !important;
+        height: 4% !important;
+    }
+
+    .apps .line_11 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .line_22 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .line_33 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .telegram {
+        width: 4% !important;
+        height: 4% !important;
+    }
+
+    .apps .vk {
+        width: 3.5% !important;
+        height: 3.5% !important;
+    }
+
+    .apps .tiktok {
+        width: 4% !important;
+        height: 4% !important;
+    }
+
+}
+
+@media(max-width: 720px) {
+    header {
+        min-width: 480px;
+    }
+
+    .reel_rover {
+        font-size: 35px;
+    }
+
+    .section_1 {
+        min-width: 480px;
+    }
+
+    .main_section_1 {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+
+    .spider {
+        width: 55%;
+    }
+
+    .desc_1 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .img_rr {
+        max-width: 38%;
+        min-width: 35%;
+        min-height: 100%;
+    }
+
+    .digital_1 h1 {
+        width: 50%;
+        top: 6px !important;
+    }
+
+    .digital_1 h1,
+    .digital_dest {
+        font-size: 22px !important;
+        letter-spacing: 0.0001px;
+    }
+
+    .desc_1 .span_reel {
+        font-size: 20px;
+    }
+
+    .desc_1 p {
+        width: 90%;
+        font-size: 18.5px;
+    }
+
+    .desc_1 .span_roam {
+        font-size: 18.5px;
+    }
+
+    .but_1 {
+        height: 38px !important;
+        min-width: 35% !important;
+        font-size: 19px !important;
+    }
+
+    .but_1 .but_try {
+        top: 7px;
+    }
+
+    .but_2 {
+        height: 38px !important;
+        min-width: 35% !important;
+        font-size: 19px !important;
+    }
+
+    .but_2 .but_try_2 {
+        top: 7px;
+    }
+
+    .section_2 {
+        min-width: 480px;
+    }
+
+    .section_2 .main_in2 {
+        padding-top: 150px;
+        margin: 0 auto;
+    }
+
+    .main_sermov {
+        padding-left: 0 !important;
+        margin: 0 auto;
+    }
+
+    .main_mov {
+        padding-left: 0 !important;
+        margin: 80px auto;
+    }
+
+    .name_watch {
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    .section_2 h1 {
+        font-size: 17.5px;
+    }
+
+    .section_2 hr {
+        min-width: 85%;
+    }
+
+    .serials img {
+        width: 85%;
+    }
+
+    .name_mov {
+        width: 25% !important;
+        padding-left: 20px !important;
+    }
+
+    .name_mov h1 {
+        letter-spacing: 0.000001px;
+    }
+
+    .section_2 .under_movie {
+        min-width: 85%;
+    }
+
+    .movies img {
+        width: 85%;
+    }
+
+    .section_3 {
+        min-width: 480px;
+        height: 1500px;
+    }
+
+    .new_movie_outblock {
+        width: 60%;
+    }
+
+    .new_movie {
+        border-radius: 5px;
+        height: 45px;
+        width: 73%;
+    }
+
+    .name_new_movie {
+        gap: 20px;
+    }
+
+    .dune_img {
+        height: 200px;
+    }
+
+    .dune_img h3 {
+        font-size: 15px;
+    }
+
+    .buttons_dune {
+        padding-left: 30px;
+        margin: 120px auto;
+        gap: 30px;
+    }
+
+    .buy_w {
+        height: 40px !important;
+        width: 35% !important;
+    }
+
+    .buy_w h1 {
+        font-size: 12px;
+    }
+
+    .about_f {
+        height: 40px !important;
+        width: 30% !important;
+    }
+
+    .about_f h1 {
+        font-size: 12px;
+    }
+
+    .new_movie span {
+        font-size: 15px;
+    }
+
+    .lines {
+        margin-bottom: 190px
+    }
+
+    .imgspider {
+        height: 15%;
+    }
+
+    .main_spider {
+        padding-left: 0 !important;
+        padding-top: 10px;
+    }
+
+    .spider_1 h1 {
+        font-size: 25px;
+        letter-spacing: 2px;
+        top: 0 !important;
+    }
+
+    .imgspider h2 {
+        font-size: 25px;
+    }
+
+    .story {
+        top: 5px;
+    }
+
+    .story img {
+        height: 100px !important;
+        bottom: 13.5px !important;
+    }
+
+    .story h3 {
+        bottom: 115px;
+        font-size: 7px !important;
+        min-width: 40%;
+
+    }
+
+    .description_spiderman {
+        padding-left: 20px;
+        bottom: 100px;
+    }
+
+    .main_role {
+        width: 40%;
+        margin-bottom: 10px
+    }
+
+    .main_role h1 {
+        font-size: 9px;
+    }
+
+    .main_role .here_1 {
+        font-size: 10px !important;
+    }
+
+    .director {
+        width: 30%;
+    }
+
+    .director h1 {
+        font-size: 9px;
+    }
+
+    .director span {
+        font-size: 10px !important;
+    }
+
+    .buttons_bysub {
+        padding-left: 20px;
+        margin-top: 0 !important;
+        position: relative;
+        bottom: 75px;
+    }
+
+    .bysub {
+        border-radius: 5px;
+        width: 35%;
+        height: 25px;
+    }
+
+    .bysub a {
+        font-size: 7px;
+        top: 5px;
+    }
+
+    footer {
+        min-width: 480px;
+    }
+
+
+    .apps .youtube {
+        width: 7% !important;
+        height: 7% !important;
+    }
+
+    .apps .line_11 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .line_22 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .line_33 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .telegram {
+        width: 7% !important;
+        height: 7% !important;
+    }
+
+    .apps .vk {
+        width: 6.5% !important;
+        height: 6.5% !important;
+    }
+
+    .apps .tiktok {
+        width: 7% !important;
+        height: 7% !important;
+    }
+
+    .main_text h3 {
+        font-size: 15px;
+    }
+
+    .text_1 img {
+        height: 35px;
+        position: relative;
+        bottom: 3px;
+    }
+
+}
+
+@media(max-width:479px){
+    header{
+        min-width: 350px;
+    }
+    .reel_rover {
+        font-size: 25px;
+    }
+    nav a{
+        font-size: 12px;
+    }
+
+    .section_1{
+        min-width: 350px;
+    }
+
+    .main_section_1 {
+        flex-direction: column-reverse;
+        padding-top: 30px;
+        gap: 50px;
+    }
+
+    .spider {
+        width: 68%;
+    }
+
+    .desc_1 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .img_rr {
+        max-width: 38%;
+        min-width: 35%;
+        min-height: 100%;
+    }
+
+    .digital_1 h1 {
+        width: 55%;
+        top: 6px !important;
+    }
+
+    .digital_1 h1,
+    .digital_dest {
+        font-size: 19px !important;
+        letter-spacing: 0.0001px;
+    }
+
+    .desc_1 .span_reel {
+        font-size: 22px;
+    }
+
+    .desc_1 p {
+        width: 100%;
+        font-size: 19.5px;
+    }
+
+    .desc_1 .span_roam {
+        font-size: 19.5px;
+    }
+
+    .but_1 {
+        height: 40px !important;
+        min-width: 38% !important;
+        font-size: 19px !important;
+    }
+
+    .but_1 .but_try {
+        top: 7px;
+    }
+
+    .but_2 {
+        height: 40px !important;
+        min-width: 38% !important;
+        font-size: 19px !important;
+    }
+
+    .but_2 .but_try_2 {
+        top: 7px;
+    }
+
+    .section_2{
+        min-width: 350px;
+        height: 650px;
+    }
+
+    .section_2 .main_in2 {
+        padding-top: 150px;
+        margin: 0 auto;
+    }
+
+    .main_sermov {
+        padding-left: 0 !important;
+        margin: 0 auto;
+    }
+
+    .main_mov {
+        padding-left: 0 !important;
+        margin: 80px auto;
+    }
+
+    .name_watch {
+        width: 33%;
+        padding-left: 20px;
+    }
+
+    .section_2 h1 {
+        font-size: 17.5px;
+    }
+
+    .section_2 hr {
+        min-width: 85%;
+    }
+
+    .serials img {
+        width: 85%;
+    }
+
+    .name_mov {
+        width: 33% !important;
+        padding-left: 20px !important;
+    }
+
+    .name_mov h1 {
+        letter-spacing: 0.000001px;
+    }
+
+    .section_2 .under_movie {
+        min-width: 85%;
+    }
+
+    .movies img {
+        width: 85%;
+    }
+
+    .section_3{
+        min-width: 350px;
+        height: 1100px;
+    }
+
+    .new_movie_outblock {
+        width: 70%;
+    }
+    .new_movie span{
+        font-size: 13px !important;
+    }
+
+    .new_movie {
+        border-radius: 5px;
+        height: 40px;
+        width: 75%;
+    }
+
+    .name_new_movie {
+        gap: 20px;
+    }
+
+    .dune_img {
+        height: 150px;
+    }
+
+    .dune_img h3 {
+        font-size: 10px;
+        padding-left: 15px;
+        top: 15px;
+    }
+
+    .buttons_dune {
+        padding-left: 15px;
+        margin: 90px auto;
+        gap: 15px;
+    }
+
+    .buy_w {
+        height: 30px !important;
+        width: 35% !important;
+        border-radius: 5px !important;
+    }
+
+    .buy_w h1 {
+        font-size: 10px;
+        top: 8px;
+    }
+
+    .about_f {
+        height: 30px !important;
+        width: 35% !important;
+        border-radius: 5px !important;
+    }
+
+    .about_f h1 {
+        font-size: 10px;
+        top: 8px;
+    }
+
+    .new_movie span {
+        font-size: 15px;
+    }
+
+    .lines {
+        margin-bottom: 90px
+    }
+
+    .imgspider {
+        height: 14%;
+    }
+
+    .main_spider {
+        padding-left: 0 !important;
+        padding-top: 10px;
+    }
+
+    .spider_1 h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        top: 0 !important;
+    }
+
+    .imgspider h2 {
+        font-size: 20px;
+    }
+
+    .story {
+        top: 5px;
+    }
+
+    .story img {
+        height: 80px !important;
+        bottom: 13.5px !important;
+    }
+
+    .story h3 {
+        bottom: 90px;
+        font-size: 5px !important;
+        min-width: 40%;
+
+    }
+
+    .description_spiderman {
+        padding-left: 20px;
+        bottom: 80px;
+    }
+
+    .main_role {
+        width: 40%;
+        margin-bottom: 5px
+    }
+
+    .main_role h1 {
+        font-size: 5px;
+    }
+
+    .main_role .here_1 {
+        font-size: 8px !important;
+    }
+
+    .director {
+        width: 30%;
+    }
+
+    .director h1 {
+        font-size: 5px;
+    }
+
+    .director span {
+        font-size: 8px !important;
+    }
+
+    .buttons_bysub {
+        padding-right: 20px;
+        margin-top: 0 !important;
+        position: relative;
+        bottom: 90px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: flex-end;
+    }
+
+    .bysub {
+        border-radius: 5px;
+        width: 45%;
+        height: 25px;
+    }
+
+    .bysub a {
+        font-size: 6px;
+        top: 7px;
+    }
+
+    footer{
+        min-width: 350px;
+    }
+    .apps{
+        gap: 15px;
+    }
+
+    .apps .youtube {
+        width: 8.5% !important;
+        height: 8.5% !important;
+    }
+
+    .apps .line_11 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .line_22 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .line_33 {
+        background: #FFF;
+        height: 35px;
+        width: 1px;
+    }
+
+    .apps .telegram {
+        width: 8.5% !important;
+        height: 8.5% !important;
+    }
+
+    .apps .vk {
+        width: 8% !important;
+        height:8% !important;
+    }
+
+    .apps .tiktok {
+        width: 8.5% !important;
+        height: 8.5% !important;
+    }
+
+    .main_text h3 {
+        font-size: 13.5px;
+    }
+
+    .text_1 img {
+        height: 35px;
+        position: relative;
+        bottom: 3px;
+    }
+ 
+}
+
+@font-face {
+    font-family: 'Alatsi-Regular';
+    src: url('./fonts/alatsi-regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alatsi-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alatsi-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alatsi-regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alatsi-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alatsi-regular.svg#alatsi-regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Andada Pro SemiBold';
+    src: url('./fonts/andada_pro_semibold.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/andada_pro_semibold.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/andada_pro_semibold.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/andada_pro_semibold.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/andada_pro_semibold.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/andada_pro_semibold.svg#andada_pro_semibold') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alumni Sans Regular';
+    src: url('./fonts/alumni_sans_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alumni_sans_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alumni_sans_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alumni_sans_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alumni_sans_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alumni_sans_regular.svg#alumni_sans_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC Regular';
+    src: url('./fonts/alegreya_sans_sc_regular.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alegreya_sans_sc_regular.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alegreya_sans_sc_regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alegreya_sans_sc_regular.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alegreya_sans_sc_regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alegreya_sans_sc_regular.svg#alegreya_sans_sc_regular') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Alegreya Sans SC Light';
+    src: url('./fonts/alegreya_sans_sc_light.eot');
+    /* IE 9 Compatibility Mode */
+    src: url('./fonts/alegreya_sans_sc_light.eot?#iefix') format('embedded-opentype'),
+        /* IE < 9 */
+        url('./fonts/alegreya_sans_sc_light.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./fonts/alegreya_sans_sc_light.woff') format('woff'),
+        /* Firefox >= 3.6, any other modern browser */
+        url('./fonts/alegreya_sans_sc_light.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./fonts/alegreya_sans_sc_light.svg#alegreya_sans_sc_light') format('svg');
+    /* Chrome < 4, Legacy iOS */
+}
